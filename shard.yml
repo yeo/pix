@@ -1,0 +1,20 @@
+name: pix
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  pix:
+    main: src/pix.cr
+
+crystal: 0.35.1
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  crymagick:
+    github: imdrasil/crymagick
+    version: 0.2.0
